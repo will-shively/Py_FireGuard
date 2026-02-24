@@ -1,0 +1,9 @@
+rules: 
+  - action: ALLOW
+    state: ESTABLISHED
+
+
+
+  - action: DROP
+    protocol: TCP
+    dst_port: 23
